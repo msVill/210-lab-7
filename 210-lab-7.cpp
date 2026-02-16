@@ -32,8 +32,13 @@ int main(){
     displayArray(names, size); // I am calling displayArray() again because we need to
     // output the original array and then the values after being reversed.
 
+    //Done with known info for now. Moving on to the functions.
     delete [] names;
     return 0;
 }
 
 //reverseArray() function. ?How can I reverse an array?
+string* reverseArray(string *arr, int size) {
+    for (int i = 0; i < size; i++) { // super tiredd
+    }
+}
