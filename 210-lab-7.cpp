@@ -22,7 +22,15 @@ int main(){
     *(names + 3) = "Carlos";
     *(names + 4) = "Araceli";
     // use functions to reverse & output.
-    //!!! use pointer notation (X array notation).
+    // I am going to need to call the functions and pass the array to them:
+
+    cout << "Original Array: ";
+    displayArray(names, size); // I am passing size b/c it is the value of the array size
+    //it needs to loop over/through.
+
+    cout << "Reversed Array: ";
+    displayArray(names, size); // I am calling displayArray() again because we need to
+    // output the original array and then the values after being reversed.
 
     delete [] names;
     return 0;
